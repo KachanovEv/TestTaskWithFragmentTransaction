@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestTask</string>
+    <string name="go_to_fragment_two">Go To Fragment Two</string>
+    <string name="go_back_to_activity">Go Back To Activity</string>
+    <string name="go_to_fragment">Go To Fragment</string>
+    <string name="send_to_activity">Send to activity</string>
+</resources>

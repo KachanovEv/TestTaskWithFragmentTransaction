@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:id="@+id/frameOne">
+
+    <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/buttonOne"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:text="@string/send_to_activity"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonOne"
+            android:layout_centerInParent="true"
+    />
+</RelativeLayout>
